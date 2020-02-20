@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div><a href="{% url 'tree_json_view' %}">Get JSON</a></div>
+    <code>{{ tree }}</code>
+{% endblock %}
